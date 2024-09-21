@@ -11,7 +11,7 @@ app.use(express.json());
 
 //middleware to handle cors policy error
 //option1:allow all oringins with default of cors(*)
-// app.use(cors());
+ app.use(cors());
 
 //option2:allow only specific origins
 app.use(cors({
